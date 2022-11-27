@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #ff9854;
+  --van-tabbar-item-icon-size: 30px;
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --van-primary-color: var(--primary-color) !important;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.top-page {
+  background-color: #fff;
+  position: relative;
+  z-index: 7;
+  height: 100vh;
+  overflow: auto;
+}
